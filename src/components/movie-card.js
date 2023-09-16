@@ -12,9 +12,9 @@ const MovieCard = ({ poster_path, title, release_date, id }) => {
   const posterImg = `https://image.tmdb.org/t/p/w500/${poster_path}`;
 
   return (
-    <div data-testid = "movie-card">
+    <div data-testid="movie-card">
     <div
-      className="cursor-pointer relative h-[370px] w-[250px] p-[15px] overflow-hidden" data-testid = "movie-poster"
+      className="cursor-pointer relative h-[370px] w-[250px] p-[15px] overflow-hidden" data-testid="movie-poster"
       onClick={clicked}
       style={{
         backgroundImage: `url(${posterImg})`,
@@ -33,7 +33,7 @@ const MovieCard = ({ poster_path, title, release_date, id }) => {
       </div>
 
       <div className="relative z-30 mt-[100px]">
-        <h1 className="text-4xl font-semibold text-white block mb-4" data-testid = "movie-title">{title}</h1>
+        <h1 className="text-4xl font-semibold text-white block mb-4" data-testid="movie-title">{title}</h1>
 
         <div className="flex items-center gap-1 mb-4">
           <p className="text-gray-300 text-sm">IMDB</p>
