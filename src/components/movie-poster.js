@@ -6,7 +6,7 @@ const MoviePoster = ({ movies }) => {
   const backdropImg = `https://image.tmdb.org/t/p/original/${movies[0].backdrop_path}`;
   return (
     <div
-      className="w-full pt-[80px] h-[600px] relative p-[20px] lg:px-[95px]" data-testid = "movie-poster"
+      className="w-full pt-[80px] h-[600px] relative p-[20px] lg:px-[95px]" data-testid="movie-poster"
       style={{
         backgroundImage: `url(${backdropImg})`,
         backgroundSize: "cover",
@@ -16,7 +16,7 @@ const MoviePoster = ({ movies }) => {
     >
       <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 z-10"></div>
       <div className="z-10 relative mt-[80px] sm:w-[70%] md:w-[50%] lg:w-[30%]">
-        <h1 className="text-3xl text-white font-bold mb-4" data-testid = "movie-title">
+        <h1 className="text-3xl text-white font-bold mb-4" data-testid="movie-title">
           {movies[0].title}
         </h1>
         <div className="flex items-center gap-4 mb-4">
