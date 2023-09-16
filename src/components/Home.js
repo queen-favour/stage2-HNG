@@ -3,7 +3,7 @@ import "./Home.css";
 import React, { useEffect, useState } from "react";
 import MoviePoster from "./movie-poster";
 import TopMovies from "./top-movie";
-import Logo from "../asset/logo";
+// import Logo from "../asset/logo";
 import SIgnIN from "../asset/signin";
 import Search from "../asset/search";
 import config from "../config";

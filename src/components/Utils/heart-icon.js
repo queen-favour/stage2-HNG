@@ -2,9 +2,9 @@ import "./heart-icon.css";
 import React, { useState } from "react";
 
 const HeartIcon = ({ isChecked }) => {
-  const clicked = () => {
-    isChecked = !isChecked;
-  };
+  // const clicked = () => {
+  //   isChecked = !isChecked;
+  // };
 
   const [isFavorite, setIsFavorite] = useState(isChecked);
 
