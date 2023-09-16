@@ -117,15 +117,15 @@ function MovieDetails() {
               <img
                 src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path}`}
                 alt={movie.title}
-                className="absolute z-0 top-0 left-0 h-full w-full object-cover" data-testid = "movie-title"
+                className="absolute z-0 top-0 left-0 h-full w-full object-cover" data-testid="movie-title"
               />
             </div>
 
             <div className="w-4/5 flex flex-row justify-between items-center mt-5 mb-1">
               <span className="">
-                <hi className="mr-2 text-gray-700 text-3xl font-normal mb-4" data-testid = "movie-title">{movie.title}</hi>
+                <hi className="mr-2 text-gray-700 text-3xl font-normal mb-4" data-testid="movie-title">{movie.title}</hi>
                 <ul className="flex gap-2">
-                  <li className="mr-3 text-gray-700 text-sm" data-testid = "movie-release-date">
+                  <li className="mr-3 text-gray-700 text-sm" data-testid="movie-release-date">
                     {movie.release_date.split("-")[0]}
                   </li>
                   <li className="mr-3 text-gray-700 text-sm">PG-13</li>
@@ -156,7 +156,7 @@ function MovieDetails() {
 
             <div className="w-4/5 flex md:flex-row flex-col mt-4 gap-2">
               <div className="w-full flex flex-col">
-                <div className=" text-gray-500 my-5 text-sm" data-testid = "movie-overview">
+                <div className=" text-gray-500 my-5 text-sm" data-testid="movie-overview">
                   {movie.overview}
                 </div>
                 <div className="mb-2">
